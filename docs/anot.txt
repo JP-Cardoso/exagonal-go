@@ -15,3 +15,10 @@ para acessar o arquivo sqlite
 
 ## ver o banco
 .tables;
+
+
+##
+Usando o COBRA para criar um CLI
+ - comandos:
+  -> cobra-cli <outros args>
+  -> cobra-cli add <novo command>
