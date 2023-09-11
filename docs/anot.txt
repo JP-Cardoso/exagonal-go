@@ -1,0 +1,17 @@
+* Arquitetura hexagonal *
+
+Isolar a aplicação, onde úsuarios externos poderam acessar a aplicação;
+
+- O go faz implementação implicita das interfaces com base nos metodos das structs;
+
+- Em cada pacote os metodos que estiverem com a inicial maiuscula, ele poderam sem usados em qualquer parte do sistema
+ desde que permaneçam ao mesmo pacote.
+ Seria como o public e o privete em POO
+
+
+### SQLite3###
+para acessar o arquivo sqlite 
+    sqlite3 <nome do arquivo que está o banco>
+
+## ver o banco
+.tables;
